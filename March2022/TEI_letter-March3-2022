@@ -124,10 +124,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/ilovan/LEAF-Writer-tests/main/March2022/TEI_letter-March3-2022?person_annotation_20220303155938840",
+	"id": "https://raw.githubusercontent.com/ilovan/LEAF-Writer-tests/main/March2022/TEI_letter-March3-2022?note_annotation_20220303160329164",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-03-03T22:59:38.840Z",
-	"dcterms:modified": "2022-03-03T22:59:38.840Z",
+	"dcterms:created": "2022-03-03T23:03:29.164Z",
+	"dcterms:modified": "2022-03-03T23:03:29.164Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -137,9 +137,9 @@
 		"cwrc:hasName": "Mihaela Ilovan",
 		"foaf:nick": "ilovan"
 	},
-	"oa:motivatedBy": "oa:identifying",
+	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/LEAF-Writer-tests/main/March2022/TEI_letter-March3-2022?person_annotation_20220303155938840#Target",
+		"@id": "https://raw.githubusercontent.com/ilovan/LEAF-Writer-tests/main/March2022/TEI_letter-March3-2022?note_annotation_20220303160329164#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/ilovan/LEAF-Writer-tests/main/March2022/TEI_letter-March3-2022",
@@ -153,18 +153,15 @@
 			"schema:softwareVersion": "dev"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/LEAF-Writer-tests/main/March2022/TEI_letter-March3-2022?person_annotation_20220303155938840#Selector",
+			"@id": "https://raw.githubusercontent.com/ilovan/LEAF-Writer-tests/main/March2022/TEI_letter-March3-2022?note_annotation_20220303160329164#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/opener/salute/persName"
+			"rdf:value": "TEI/text/body/div/p/note"
 		}
 	},
 	"oa:hasBody": {
-		"@type": [
-			"schema:Person",
-			"cwrc:FictionalPerson"
-		],
-		"@id": "http://viaf.org/viaf/205850363/",
-		"dc:format": "text/plain"
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "booo"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.stage.lincsproject.ca",
@@ -189,9 +186,9 @@
 					<dateline>
 						<date>Some date (set date value in attribute).</date>
 					</dateline>
-					<salute>Some salutation, e.g. "Dearest <persName key="Felix the Cat, personnage fictif" ref="http://viaf.org/viaf/205850363/" type="fictional">Miquel</persName>"</salute>
+					<salute>Some salutation, e.g. "Dearest <persName cert="high" type="real" ref="http://viaf.org/viaf/39569752">Miquel</persName>"</salute>
 				</opener>
-				<p>Sample test letter content</p>
+				<p>Sample test letter content<note type="researchNote">booo</note></p>
 				<closer>
 					<salute>Some closing salutation, e.g. "With love..."</salute>
 					<signed>Sender name and/or signature.</signed>
