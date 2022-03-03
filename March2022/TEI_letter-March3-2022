@@ -271,7 +271,7 @@
 					</dateline>
 					<salute>Some salutation, e.g. "Dearest <persName key="Felix the Cat, personnage fictif" ref="http://viaf.org/viaf/205850363/" type="fictional">Miquel</persName>"</salute>
 				</opener>
-				<p>Sample test l<placeName key="Kampung Sekijang Johor Malaysia" ref="https://geonames.org/1764715">etter</placeName> content</p>
+				<pb facs="https://en.wikipedia.org/wiki/Portable_Network_Graphics#/media/File:PNG_transparency_demonstration_1.png" xml:space="default" n="2"/><p>Sample test l<placeName key="Kampung Sekijang Johor Malaysia" ref="https://geonames.org/1764715">etter</placeName> content</p>
 				<closer>
 					<salute>Some closing salutation, e.g. "With love..."</salute>
 					<signed>Sender name and/or signature.</signed>
