@@ -44,10 +44,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "?person_annotation_20190814144630962",
+	"id": "https://raw.githubusercontent.com/ilovan/LEAF-Writer-tests/main/March2022/TEI_letter-March3-2022?person_annotation_20190814144630962",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:46:30.962Z",
-	"dcterms:modified": "2019-08-14T20:46:30.962Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -59,10 +58,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "?person_annotation_20190814144630962#Target",
+		"@id": "https://raw.githubusercontent.com/ilovan/LEAF-Writer-tests/main/March2022/TEI_letter-March3-2022?person_annotation_20190814144630962#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "",
+			"@id": "https://raw.githubusercontent.com/ilovan/LEAF-Writer-tests/main/March2022/TEI_letter-March3-2022",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -73,7 +72,7 @@
 			"schema:softwareVersion": "dev"
 		},
 		"oa:hasSelector": {
-			"@id": "?person_annotation_20190814144630962#Selector",
+			"@id": "https://raw.githubusercontent.com/ilovan/LEAF-Writer-tests/main/March2022/TEI_letter-March3-2022?person_annotation_20190814144630962#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/salute/persName"
 		}
